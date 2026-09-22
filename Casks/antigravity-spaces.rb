@@ -7,7 +7,7 @@ cask "antigravity-spaces" do
   desc "Native workspace switcher for Antigravity IDE on macOS"
   homepage "https://github.com/ApollosWave/antigravity-spaces"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Antigravity Spaces.app"
 
