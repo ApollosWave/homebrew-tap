@@ -1,30 +1,39 @@
 # ApollosWave Homebrew Tap
 
-Official Homebrew tap for [ApollosWave](https://apolloswave.com) developer tools.
+Official Homebrew tap for [ApollosWave](https://apolloswave.com) developer tools on macOS (Apple Silicon).
 
-## Installation
+## Packages
 
-### Antigravity Spaces
+### 1. `localctx` (CLI Formula)
+
+Local Apple Silicon codebase context engine and KV-cache co-processor for coding agents (`https://localctx.apolloswave.com`).
+
+```bash
+brew install apolloswave/tap/localctx
+```
+
+Upgrade to the latest release:
+
+```bash
+brew upgrade localctx
+```
+
+---
+
+### 2. Antigravity Spaces (macOS App Cask)
 
 A native, keyboard-first workspace switcher for Antigravity IDE on macOS.
 
 ```bash
-brew install apolloswave/tap/antigravity-spaces
+brew install --cask apolloswave/tap/antigravity-spaces
 ```
 
-Or tap first:
+Upgrade to the latest release:
 
 ```bash
-brew tap apolloswave/tap
-brew install --cask antigravity-spaces
-```
-
-## Updates
-
-```bash
-brew upgrade antigravity-spaces
+brew upgrade --cask antigravity-spaces
 ```
 
 ## License
 
-MIT License. Designed and maintained by [ApollosWave LLC](https://apolloswave.com).
+Maintained by [ApollosWave LLC](https://apolloswave.com).
