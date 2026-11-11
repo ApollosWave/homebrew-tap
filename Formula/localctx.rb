@@ -1,9 +1,9 @@
 class Localctx < Formula
   desc "Local Apple Silicon codebase context engine for coding agents"
   homepage "https://localctx.apolloswave.com"
-  url "https://github.com/ApollosWave/localctx/releases/download/v4.11.4/localctx-4.11.4-macos-arm64.tar.gz"
-  version "4.11.4"
-  sha256 "87d37341ce654a6a9c8fa240cbf64aec412573ba4cb7d0e52ffaacdd405fafe8"
+  url "https://github.com/ApollosWave/localctx/releases/download/v4.11.8/localctx-4.11.8-macos-arm64.tar.gz"
+  version "4.11.8"
+  sha256 "26e99f3721cefc5f63808967f5aee685a0cf4869836b1c7a417156bbc58e740a"
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
